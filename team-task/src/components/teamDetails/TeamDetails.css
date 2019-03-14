@@ -1,0 +1,19 @@
+.bdr-header {
+	border-top:1px solid gray;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.bdr {
+	border-top:1px solid gray;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.bdr:nth-child(even) {
+	background: rgb(243, 240, 240);
+}
+
+.bdr:hover {
+	background: #e0e0e0;
+}
